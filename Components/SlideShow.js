@@ -7,7 +7,7 @@ const SlideShow = () => {
             <section className="showcase">
                 <div className="video-container">
                     <video autoPlay loop muted controls>
-                        <source src="SlideVideo.mp4" type="video/mp4" />
+                        <source src="../UI/SlideVideo.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <div className="content">
