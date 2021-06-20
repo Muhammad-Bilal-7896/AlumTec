@@ -59,7 +59,7 @@ const Services = () => {
                                             </h5>
                                         </div>
                                         <div className="col-md-5">
-                                            <img src="{dc}" width="100%" height="300" alt="" />
+                                            <img src="UI/dc.JPEG XR" width="100%" height="300" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ const Services = () => {
                                             </h5>
                                         </div>
                                         <div className="col-md-5">
-                                            <img src="{fe}" width="100%" height="300" alt="" />
+                                            <img src="UI/fe.JPEG XR" width="100%" height="300" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,14 +106,13 @@ const Services = () => {
                                             </h5>
                                         </div>
                                         <div className="col-md-5">
-                                            <img src="{li}" width="100%" height="300" alt="" />
+                                            <img src="UI/li.JPEG XR" width="100%" height="300" alt="" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="tab-pane fade" id="ex3-tabs-4" role="tabpanel" aria-labelledby="ex3-tab-4">
                                 <div className="container">
-
                                     <div className="row">
                                         <div className="col-md-7">
                                             <h1>
@@ -131,7 +130,7 @@ const Services = () => {
                                             </h5>
                                         </div>
                                         <div className="col-md-5">
-                                            <img src="{so}" width="100%" height="200" alt="" />
+                                            <img src="UI/so.JPEG XR" width="100%" height="200" alt="" />
                                         </div>
                                     </div>
                                 </div>

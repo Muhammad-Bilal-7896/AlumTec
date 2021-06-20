@@ -1,9 +1,7 @@
 import React from 'react';
 
 import Link from "next/link";
-//import proudlycanadian from "../UI/proudlycanadian.JPEG XR"
 import ScrollAnimation from 'react-animate-on-scroll';
-
 
 const About = () => {
 
@@ -40,13 +38,13 @@ const About = () => {
             <br />
             <div style={{ textAlign: "center" }}>
                 {/* id="aboutuspagebtn" */}
-                <Link href="/about" className="btn">Learn More</Link>
+                <Link href="/about"><a id="aboutuspagebtn" className="btn">Learn More</a></Link>
             </div>
 
             <br />
 
             <div className="text-center">
-                <img src="{proudlycanadian}" width="250" alt="proudlycanadian" />
+                <img src="UI/proudlycanadian.JPEG XR" width="250" alt="proudlycanadian" />
                 <br />
                 <br />
                 <h3 style={{ textTransform: "uppercase", fontWeight: "lighter" }}>

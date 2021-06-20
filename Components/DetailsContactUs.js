@@ -10,6 +10,9 @@ const DetailsContactUs = (props) => {
                 
                 <hr/>
                 <h4> <b>Email: </b> {props.email}</h4>
+
+                <hr/>
+                <h4> <b>Phone: </b> {props.phone}</h4>
                 
                 <hr/>
                 <h4> <b>Subject: </b> {props.subject}</h4>

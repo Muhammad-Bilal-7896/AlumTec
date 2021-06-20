@@ -202,6 +202,7 @@ const Admin = () => {
                                                     subject={v.SUBJECT}
                                                     message={v.MESSAGE}
                                                     time={v.currentTime}
+                                                    phone={v.PHONE}
                                                 />
 
                                             </div>

@@ -52,8 +52,10 @@ const Header = () => {
                 {/* Container wrapper */}
                 <div className="container-fluid">
                     {/* Navbar brand */}
-                    <Link href="/" className="navbar-brand">
-                        <img className="logo" src="{Logo}" alt="Alum tech" />
+                    <Link href="/">
+                        <a className="navbar-brand">
+                            <img className="logo" src="UI/logo.JPEG XR" alt="Alum tech" />
+                        </a>
                     </Link>
                     {/* Toggle button */}
                     <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,19 +66,19 @@ const Header = () => {
                         {/* Left links */}
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link href="/"><a href="/" className="nav-link active">HOME</a></Link>
+                                <Link href="/"><a className="nav-link active">HOME</a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/about"><a href="/" className="nav-link">ABOUT US</a></Link>
+                                <Link href="/about"><a className="nav-link">ABOUT US</a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/services"><a href="/" className="nav-link">SERVICES</a></Link>
+                                <Link href="/services"><a className="nav-link">SERVICES</a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/products"><a href="/" className="nav-link">OUR PRODUCTS</a></Link>
+                                <Link href="/products"><a className="nav-link">OUR PRODUCTS</a></Link>
                             </li>
                             <li className="nav-item">
-                                <Link href="/health"><a href="/" className="nav-link">HEALTH & SAFETY</a></Link>
+                                <Link href="/health"><a className="nav-link">HEALTH & SAFETY</a></Link>
                             </li>
 
                             <li className="nav-item dropdown">
@@ -85,9 +87,9 @@ const Header = () => {
                                 </a>
                                 {/* Dropdown menu */}
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link href="/career"><a href="/" className="dropdown-item">CAREER</a></Link></li>
+                                    <li><Link href="/career"><a className="dropdown-item">CAREER</a></Link></li>
                                     <li>
-                                        <Link href="/admin"><a href="/" className="dropdown-item">ADMIN</a></Link>
+                                        <Link href="/admin"><a className="dropdown-item">ADMIN</a></Link>
                                     </li>
                                 </ul>
                             </li>

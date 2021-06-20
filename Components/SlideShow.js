@@ -1,5 +1,4 @@
 import React from 'react';
-//import video from '../UI/SlideVideo.mp4';
 import Link from "next/link"
 
 const SlideShow = () => {
@@ -8,7 +7,7 @@ const SlideShow = () => {
             <section className="showcase">
                 <div className="video-container">
                     <video autoPlay loop muted controls>
-                        <source src="video" type="video/mp4" />
+                        <source src="SlideVideo.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <div className="content">

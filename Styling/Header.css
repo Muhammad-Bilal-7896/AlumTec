@@ -1,82 +1,82 @@
 .dropdown:hover>.dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-    pointer-events: none;
-  }
-  
-  #navbarSupportedContent {
-  
-  
-    margin-left: 3%;
-  }
-  
-  
-  
-  
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+#navbarSupportedContent {
+  margin-left: 3%;
+}
+
+.navbar-brand {
+  margin-left: 8%;
+  margin-right: 5%;
+}
+
+@media all and (max-width:1194px) {
   .navbar-brand {
-    margin-left: 15%;
+    margin-right: 0%;
   }
-  
-  .logo {
-    width: 200px;
-  }
-  
-  .navbar {
-    opacity: 1;
-    transition: 0.4s linear;
-    background-color: white;
-  }
-  
-  .navbar:hover {
-    transition: 0.4s ease-in;
-    opacity: 1;
-  }
-  
-  /* For the effects when the scrolling starts */
-  
-  html:not([data-scroll="0"]) body {
-    padding-top: 3em;
-  }
-  
-  html:not([data-scroll="0"]) .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    /* background-color: #fff; */
-    opacity: 1;
-    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
-    transition: 0.4s linear;
-  }
-  
-  /* For the effects when the scrolling starts */
-  
-  #navbarSupportedContent .navbar-nav .nav-item .nav-link {
-    color: black;
-    text-align: center;
-    border: none;
-    font-weight: normal;
-  }
-  
+}
+
+.logo {
+  width: 200px;
+}
+
+.navbar {
+  opacity: 1;
+  transition: 0.4s linear;
+  background-color: white;
+}
+
+.navbar:hover {
+  transition: 0.4s ease-in;
+  opacity: 1;
+}
+
+/* For the effects when the scrolling starts */
+
+html:not([data-scroll="0"]) body {
+  padding-top: 3em;
+}
+
+html:not([data-scroll="0"]) .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* background-color: #fff; */
+  opacity: 1;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  transition: 0.4s linear;
+}
+
+/* For the effects when the scrolling starts */
+
+#navbarSupportedContent .navbar-nav .nav-item .nav-link {
+  color: black;
+  text-align: center;
+  font-weight: normal;
+  border: 2px solid transparent;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid #114b87;
+  color: rgb(70, 70, 70);
+  border-radius: 2px;
+  transition: 1s ease-in-out;
+}
+
+body {
+  background-color: white;
+  color: #18191a;
+}
+
+@media all and (max-width:600px) {
   #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
-  
-    border: 1px solid rgb(64, 74, 214);
-    color:rgb(64, 74, 214);
-    border-radius: 15px 15px 15px 15px;
-    transition: 0.5s linear;
+    border: initial;
+    border-radius: initial;
   }
-  body {
-    background-color: white;
-    color: #18191a;
-  }
-  
-  @media all and (max-width:600px)
-  {
-    #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
-      border:initial;
-      border-radius:initial;
-    
-    } 
-  }
+}

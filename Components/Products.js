@@ -31,7 +31,7 @@ const Products = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="containerInside">
-                            <img className="image" src="{aw}" alt="pic" />
+                            <img className="image" src="UI/aw.JPEG XR" alt="pic" />
                             <div className="imageOverlay imageOverlayBlur">
                                 <div className="image_title">
                                     Aluminum windows
@@ -50,7 +50,7 @@ const Products = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="containerInside">
-                            <img className="image" src="{ad}" alt="pic" />
+                            <img className="image" src="UI/ad.JPEG XR" alt="pic" />
                             <div className="imageOverlay imageOverlayBlur">
                                 <div className="image_title">
                                     Aluminum doors
@@ -68,7 +68,7 @@ const Products = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="containerInside">
-                            <img className="image" src="{cwf}" alt="pic" />
+                            <img className="image" src="UI/cwf.JPEG XR" alt="pic" />
                             <div className="imageOverlay imageOverlayBlur">
                                 <div className="image_title">
                                     Curtain wall façade:
@@ -90,7 +90,7 @@ const Products = () => {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="containerInside">
-                            <img className="image" src="{asf}" alt="pic" />
+                            <img className="image" src="UI/asf.JPEG XR" alt="pic" />
                             <div className="imageOverlay imageOverlayBlur">
                                 <div className="image_title">
                                     Aluminum Storefront
@@ -107,7 +107,7 @@ const Products = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="containerInside">
-                            <img className="image" src="{ip}" alt="pic" />
+                            <img className="image" src="UI/ip.JPEG XR" alt="pic" />
                             <div className="imageOverlay imageOverlayBlur">
                                 <div className="image_title">
                                 Internal Partitions
@@ -125,7 +125,7 @@ const Products = () => {
                     </div>
                     <div className="col-md-4">
                         <div className="containerInside">
-                            <img className="image" src="{agr}" alt="pic" />
+                            <img className="image" src="UI/agr.JPEG XR" alt="pic" />
                             <div className="imageOverlay imageOverlayBlur">
                                 <div className="image_title">
                                     Aluminium and glass railing

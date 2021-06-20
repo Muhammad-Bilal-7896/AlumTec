@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <img className="logoFooter" src="" alt="Alum tech" />
+                        <img className="logoFooter" src="UI/logo2.JPEG XR" alt="Alum tech" />
                     </div>
                     <div className="col-md-6">
                         <div id="footerIcons" style={{ display:"flex" }}>
