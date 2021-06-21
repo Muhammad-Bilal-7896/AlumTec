@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
   return <>
     <Head>
       <meta charset="utf-8" />
-      <link rel="icon" href="%PUBLIC_URL%/logo.ico" />
+      <link rel="icon" href="logo.ico" />
       <meta name="description" content="Aluminium curtain wall, windows and doors are our speciality.Glazing solutions are our passion" />
       <meta name="keywords" content="Aluminium, Glazing Solutions, Curtain Wall, Windows , Doors" />
       <meta name="author" content="Muhammad-Bilal-7896" />
@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
       <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
 
       <meta name="description" content="Alumtec Glazing Solutions Inc | Aluminium, Glazing Solutions, Curtain Wall, Windows , Doors" />
-      <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.jpeg" />
+      <link rel="apple-touch-icon" href="logo.ico" />
       {/* <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
