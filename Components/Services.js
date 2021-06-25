@@ -59,7 +59,7 @@ const Services = () => {
                                             </h5>
                                         </div>
                                         <div className="col-md-5">
-                                            <img src="UI/dc.JPEG XR" width="100%" height="300" alt="" />
+                                            <img src="UI/dc.JPEG XR" width="100%" height="300" alt="DESIGN AND CONSTRUCT" />
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ const Services = () => {
                                             </h5>
                                         </div>
                                         <div className="col-md-5">
-                                            <img src="UI/fe.JPEG XR" width="100%" height="300" alt="" />
+                                            <img src="UI/fe.JPEG XR" width="100%" height="300" alt="FABRICATION AND ENGINEERING" />
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@ const Services = () => {
                                             </h5>
                                         </div>
                                         <div className="col-md-5">
-                                            <img src="UI/li.JPEG XR" width="100%" height="300" alt="" />
+                                            <img src="UI/li.JPEG XR" width="100%" height="300" alt="LOGISTICS AND INSTALLATION" />
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@ const Services = () => {
                                             </h5>
                                         </div>
                                         <div className="col-md-5">
-                                            <img src="UI/so.JPEG XR" width="100%" height="200" alt="" />
+                                            <img src="UI/so.JPEG XR" width="100%" height="200" alt="SUPPLY ONLY" />
                                         </div>
                                     </div>
                                 </div>
