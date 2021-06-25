@@ -82,7 +82,7 @@ const Admin = () => {
                 var user = userCredential.user;
                // console.log("The user is logged in and data is: " + user);
                 alert("Logged in successfully")
-                window.location.reload();
+                setStatus(true)
             })
             .catch((error) => {
                 var errorCode = error.code;
@@ -96,7 +96,7 @@ const Admin = () => {
         firebase.auth().signOut().then(() => {
             // Sign-out successful.
             alert("Signed Out Successfully");
-            window.location.reload();
+          setStatus(false)
 
         }).catch((error) => {
             // An error happened.
@@ -251,9 +251,8 @@ const Admin = () => {
                     </div>
                 ) : (
                         <div>
-                            <img width="200px" src="" alt="Alum Tech" />
+                            <img width="200px" src="../UI/logo.JPEG XR" alt="Alum Tech" />
                             <br /> <br />
-                            {/* <label className="form-label">Email Address (required)</label> <br/> */}
                             <input type="email" placeholder="Email Address" onChange={(e) => setEmail(e.target.value)} className="form-control-lg" />
                             <br /><br />
                             <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} className="form-control-lg" />

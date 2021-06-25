@@ -1,5 +1,6 @@
-import Head from "next/head"
-// import '../styles/globals.css'
+import React, { useEffect, useState } from "react";
+import Head from "next/head";
+import '../styles/globals.css'
 
 // import "../ContainerCss/Home.css";
 // import "../ContainerCss/Admin.css";
@@ -23,20 +24,60 @@ import "../Styling/Services.css"
 import "../Styling/SlideShow.css"
 
 import { Provider } from 'react-redux'
+function Loader(){
+  return (
+    <div className="loading-wrapper" >
+      <br />
+      <br />
+      <h1 className="text-center">Alumtec Glazing solution Inc.</h1>
+      <div className="loading">
+        <span />
+        <span />
+        <span />
+        <span />
+        <span />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        {/* <div className="hideInitially">
+          <Provider store={store}>
+            <Component {...pageProps} />
+          </Provider>
+        </div> */}
+        <h5 className="">ALL RIGHTS RESERVED. INDEXED 2021</h5>
+      </div>
+    </div>
+  );
+}
+
 import store from "../store";
 
+
+
 function MyApp({ Component, pageProps }) {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  const finishLoading = () => {
+    setIsLoaded(true);
+  }
+
+  useEffect(() => {
+    setTimeout(finishLoading, 1000);
+  })
   return <>
     <Head>
       <meta charset="utf-8" />
+      <meta httpEquiv="content-language" content="en" />
       <link rel="icon" href="logo.ico" />
       <meta name="description" content="Aluminium curtain wall, windows and doors are our speciality.Glazing solutions are our passion" />
       <meta name="keywords" content="Aluminium, Glazing Solutions, Curtain Wall, Windows , Doors" />
       <meta name="author" content="Muhammad-Bilal-7896" />
-
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="theme-color" content="#000000" />
-
+      <meta name="description" content="Alumtec Glazing Solutions Inc | Aluminium, Glazing Solutions, Curtain Wall, Windows , Doors" />
       {/* <!-- Font Awesome --> */}
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
       {/* <!-- Google Fonts --> */}
@@ -44,7 +85,7 @@ function MyApp({ Component, pageProps }) {
       {/* <!-- MDB --> */}
       <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css" rel="stylesheet" />
 
-      <meta name="description" content="Alumtec Glazing Solutions Inc | Aluminium, Glazing Solutions, Curtain Wall, Windows , Doors" />
+     
       <link rel="apple-touch-icon" href="logo.ico" />
       {/* <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -67,7 +108,15 @@ function MyApp({ Component, pageProps }) {
       <title>Alumtec Glazing Solutions Inc</title>
     </Head>
     <Provider store={store}>
-      <Component {...pageProps} />
+      {(isLoaded == true) ? (
+        <>
+          <Component {...pageProps} />
+        </>
+      ) : (
+        <div>
+          <Loader />
+        </div>
+      )}
     </Provider>
   </>
 }
